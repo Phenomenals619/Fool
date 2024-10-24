@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <a href="cart?show=show">Show Cart</a>
+        <table border>
+            <tr>
+                <th>PID</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>ABC</td>
+                <td>10</td>
+                <td>
+                    <form action="cart">
+                        <input type="hidden" name="pr" value="1:ABC:10">
+                        <input type="submit" value="Add to Cart">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>DEF</td>
+                <td>20</td>
+                <td>
+                    <form action="cart">
+                        <input type="hidden" name="pr" value="2:DEF:20">
+                        <input type="submit" value="Add to Cart">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>GHI</td>
+                <td>30</td>
+                <td>
+                    <form action="cart">
+                        <input type="hidden" name="pr" value="3:GHI:30">
+                        <input type="submit" value="Add to Cart">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>JKL</td>
+                <td>40</td>
+                <td>
+                    <form action="cart">
+                        <input type="hidden" name="pr" value="4:JKL:40">
+                        <input type="submit" value="Add to Cart">
+                    </form>
+                </td>
+            </tr>
+        </table>
+
+    </body>
+</html>
